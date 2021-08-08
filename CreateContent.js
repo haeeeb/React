@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 class CreateContent extends Component{
     render(){
       console.log('Content render');
@@ -22,4 +23,5 @@ class CreateContent extends Component{
       );
     }
   }
+  
 export default CreateContent;
