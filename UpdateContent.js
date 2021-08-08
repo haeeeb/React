@@ -14,6 +14,7 @@ class UpdateContent extends Component{
     inputFormHandler(e){
       this.setState({[e.target.name]:e.target.value});
     }
+    
     render(){
       console.log(this.props.data);
       console.log('UpdateContent render');
@@ -39,7 +40,7 @@ class UpdateContent extends Component{
                   value={this.state.title}
                   onChange={this.inputFormHandler}
                 ></input>
-                </p>
+               </p>
               <p>
                 <textarea 
                   onChange={this.inputFormHandler} 
@@ -56,5 +57,4 @@ class UpdateContent extends Component{
     }
   }
 
-  
 export default UpdateContent;
